@@ -1,0 +1,6 @@
+services:
+  - type: web
+    name: war-game
+    env: python
+    buildCommand: ""
+    startCommand: "python app.py"
